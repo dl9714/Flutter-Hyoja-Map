@@ -1,0 +1,100 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Environment variables
+.env
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# **************** User Provided Rules (빌드/아웃풋 폴더) ****************
+.gradle/
+/local.properties
+# /build/ is already ignored above
+
+# IDE 생성 파일 (Android Studio)
+# .idea/ is already ignored above
+# .DS_Store is already ignored above
+# Thumbs.db is already ignored above
+
+# 모듈별 빌드 폴더
+*/build/
+
+# 디버그/임시 파일
+captures/
+.externalNativeBuild/
+
+# 로컬 설정 파일 및 키 (보안 중요!)
+# *.iml is already ignored above
+gradlew.bat.bak
+/gradle/wrapper/gradle-wrapper.properties
+/key.properties
+
+# Android Studio Cache
+.cxx/
+/dataBindingBuildOutput/
+
+# 메모장, 에디터 백업 파일
+*~
+*.bak
+
+# **************** 추가로 제외할 수 있는 항목 ****************
+# AVD 관련 파일
+*.avd
+
+# Firebase 관련 파일
+google-services.json
+
+# **************** Media Files (User Requested) ****************
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+assets/
